@@ -94,7 +94,6 @@
   display: flex;
   align-self: center;
   justify-content: center;
-  padding-top:30px ;
   background-color: black;
   font-size: 25px;
   height: 1000px;
@@ -107,7 +106,7 @@
   display: flex;
   align-self: center;
   justify-content: space-around;
-  padding-top:20px ;
+  padding-top:900px ;
   background-color: black;
   font-size: 25px;
 }
@@ -137,7 +136,7 @@ button:active {
   background-color: rgb(6, 5, 28);
   position: absolute;
   width: 100%;
-  height: 1200px;
+  height: 2000px;
   z-index: 0;
 }
 
@@ -162,4 +161,13 @@ button:active {
       opacity: 0;
   }
 }
-
+ .title {
+  align-content: center;
+  text-align: center;
+  color: white;
+  font-family: orbitron;
+  font-size: 67px;
+  background-color: rgb(6, 5, 28);
+  height: fit-content;
+  margin: 0;
+ }
